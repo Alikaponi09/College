@@ -43,12 +43,9 @@ namespace classLessonApp
 
         private bool Proverka(Tree tree) 
         {
-            for (int i = 0; i < Trees.Length; i++)
+            foreach (var item in Trees)
             {
-                if (tree == Trees[i])
-                {
-                    return true;
-                }
+                if (tree == item) return true;
             }
             return false;
         }
@@ -60,13 +57,10 @@ namespace classLessonApp
             {
                 Tree[] trees = new Tree[Trees.Length - 1];
                 int j = 0;
-                for (int i = 0; i < Trees.Length; i++)
+                foreach (var item in Trees)
                 {
-                    if (Trees[i] == tree)
-                    {
-                        continue;
-                    }
-                    trees[j] = Trees[i];
+                    if (item == tree) continue;
+                    trees[j] = item;
                     j++;
                 }
                 Trees = trees;
@@ -81,10 +75,7 @@ namespace classLessonApp
                 int j = 0;
                 for (int i = 0; i < Trees.Length; i++)
                 {
-                    if (i == index)
-                    {
-                        continue;
-                    }
+                    if (i == index) continue;
                     trees[j] = Trees[i];
                     j++;
                 }
