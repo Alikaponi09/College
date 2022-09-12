@@ -14,7 +14,7 @@ namespace classLessonApp
             Garden garden = new Garden(trees);
             garden.Add(new AppleTree("aaaaaaaaaaa", 324));
             garden.Delete(trees[0]);
-            garden.Poliv();
+            garden.Print();
         }
     }
 }
