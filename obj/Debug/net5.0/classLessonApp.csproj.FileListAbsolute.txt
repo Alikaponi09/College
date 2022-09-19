@@ -1,0 +1,16 @@
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.exe
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.deps.json
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.runtimeconfig.json
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.runtimeconfig.dev.json
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.dll
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\ref\classLessonApp.dll
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\bin\Debug\net5.0\classLessonApp.pdb
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.csproj.AssemblyReference.cache
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.AssemblyInfoInputs.cache
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.AssemblyInfo.cs
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.csproj.CoreCompileInputs.cache
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.dll
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\ref\classLessonApp.dll
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.pdb
+C:\Users\Реналь\Documents\MEGAsync\GitHub\College\obj\Debug\net5.0\classLessonApp.genruntimeconfig.cache
