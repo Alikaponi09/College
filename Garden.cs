@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using classLessonApp.Generic;
 
 namespace classLessonApp
 {
     class Garden
     {
-        public Tree[] Trees { get; protected set; }
+        public Tree<WorldMoney>[] Trees { get; protected set; }
 
-        public Garden(Tree[] trees)
+        public Garden(Tree<WorldMoney>[] trees)
         {
             Trees = trees;
         }
@@ -23,11 +24,11 @@ namespace classLessonApp
             }
         }
 
-        public void Add(Tree tree) 
+        public void Add(Tree<WorldMoney> tree) 
         {
             if (tree != null)
             {
-                Tree[] trees = new Tree[Trees.Length + 1];
+                Tree<WorldMoney>[] trees = new Tree<WorldMoney>[Trees.Length + 1];
                 //Trees.CopyTo(trees, 0);
                 //trees[Trees.Length] = tree;
                 //Trees = trees;
@@ -41,7 +42,7 @@ namespace classLessonApp
             }
         }
 
-        private bool Proverka(Tree tree) 
+        private bool Proverka(Tree<WorldMoney> tree) 
         {
             foreach (var item in Trees)
             {
@@ -50,12 +51,12 @@ namespace classLessonApp
             return false;
         }
 
-        public void Delete(Tree tree) 
+        public void Delete(Tree<WorldMoney> tree) 
         {
             //Trees = Trees.Where(p => p != tree).ToArray();
             if (Proverka(tree))
             {
-                Tree[] trees = new Tree[Trees.Length - 1];
+                Tree<WorldMoney>[] trees = new Tree<WorldMoney>[Trees.Length - 1];
                 int j = 0;
                 foreach (var item in Trees)
                 {
@@ -71,7 +72,7 @@ namespace classLessonApp
         {
             if (index < Trees.Length && index >= 0)
             {
-                Tree[] trees = new Tree[Trees.Length - 1];
+                Tree<WorldMoney>[] trees = new Tree<WorldMoney>[Trees.Length - 1];
                 int j = 0;
                 for (int i = 0; i < Trees.Length; i++)
                 {

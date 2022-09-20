@@ -17,11 +17,11 @@ namespace classLessonApp.DuckTales
             get
             {
                 return age;
-            };
+            }
             protected set
             {
                 age = value < 0 ? 0 : value;
-            };
+            }
         }
 
         public Duck(string name, int age)

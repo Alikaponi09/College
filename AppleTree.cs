@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace classLessonApp
 {
-    class AppleTree : Tree
+    class AppleTree : Tree<Generic.USD>
     {
-        public AppleTree(string kind, int age) : base(kind, age) { }
+        public AppleTree(string kind, int age, Generic.USD uSD) : base(kind, age, uSD) { }
 
         public override void Grove() => Age += 1;
     }

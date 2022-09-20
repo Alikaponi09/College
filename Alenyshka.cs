@@ -8,7 +8,7 @@ namespace classLessonApp
 {
     class Alenyshka : PearTree
     {
-        public Alenyshka(string kind, int age) : base(kind, age) { }
+        public Alenyshka(string kind, int age, Generic.RUB rUB) : base(kind, age, rUB) { }
 
         public override void Grove() => Age += 4;
     }

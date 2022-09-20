@@ -3,20 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using classLessonApp.Generic;
 
 namespace classLessonApp
 {
-    abstract class Tree
+    abstract class Tree<WorldMoney>
     {
-        //
-        //вид
-        //нельзя изменить извне
         public string Kind { get; protected set; }
+        public WorldMoney Cost { get; protected set; }
 
-        //
-        //возраст
-        //должно быть больше 0
-        //нельзя изменить извне
         private double age;
         public double Age
         {
@@ -27,13 +22,14 @@ namespace classLessonApp
             }
         }
 
-        public Tree(string kind, int age)
+        public Tree(string kind, int age, WorldMoney cost)
         {
             Kind = kind;
             Age = age;
+            Cost = cost;
         }
 
         public abstract void Grove();
-        
+
     }
 }
